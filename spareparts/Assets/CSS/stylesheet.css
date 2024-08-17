@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --maroon: rgb(90, 13, 13);
+    --black: black;
+    --light-color:#100c38;
+    --box-sadow: 10px 20px black ;
+    --border:40px solid black ;
+    --outline:.1rem solid black;
+}
+
+html{
+
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+.header{
+    border:0px;
+    height: 20px;
+    position: fixed;  
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(246, 148, 148);
+    padding: 15px 20px;
+    --box-shadow:var(--black)
+}
+.header .image{
+    font-size: medium;
+}
+.home{
+    display: flex;
+    justify-content: center; 
+    padding-top: 17rem;
+    padding-bottom: 10rem;
+}    
+.home .content{
+    text-align: center;
+    width: 60rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+.home .content h1{
+    color: #2515d6;
+    font-weight: bold;
+    font-size: large;
+}
+.home .content p{
+    color: #2515d6;
+    font-weight: bold;
+    font-size: large;
+}
+.header .navbar a:hover{
+    color: maroon;
+}
+.header .navbar a{
+    font-size: large;
+    font-weight: bold;
+    color: #1e1397;
+    margin-inline: 15px;
+}
+.navbar a .active{
+    background-color: white;
+    color: coral;
+}
+.header .icons div{
+    border: 0px solid;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+    border-radius: 5px;
+    background: rgb(11, 30, 107);
+    color: #ddd;
+    font-size: medium;
+    margin-right: 20px;
+    text-align: center;
+    courser:pointer;
+}
+.header .icons div:hover{
+    background-color: maroon;
+    color: white;
+}
+.main h1{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+.main p{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+}
+.main{
+    text-align: center;
+}
+.footer{
+    text-align: center;
+    background: rgb(246, 148, 148);
+    margin: 0px;
+    color: #1e1397;
+}
+.Home p{
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    color: #2515d6;
+}
+.Home li{
+    font-size: large;
+    background: rgb(246, 148, 148);
+    text-align: center;
+    margin-right: 400px;
+    color: #1e1397;
+
+}
+.Home h2{
+    background: rgb(246, 148, 148);
+    font-size: large;
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    color: #1e1397;
+}
+.Home h3{
+    background: rgb(246, 148, 148);
+    font-size: large;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #1e1397;
+}
+.Home img{
+    text-align: center;
+}
+.caption{
+    text-align: center;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 60%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+
+th {
+    background-color: #1e1397;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+*{
+    box-sizing: border-box;
+}
+.column{
+    float: left;
+    width: 33.33;
+    padding: 5px;
+}
+.row{
+    content: normal;
+    display: table;
+    clear: both;
+}
+.img{
+    text-align: center;
+}
+.form{
+    text-align: center;
+    color: #2515d6;
+}
+.cont{
+    text-align: center;
+}
+ .Home .video-gallery {
+    display: flex;
+    justify-content: center; /* Center the video container horizontally */
+    align-items: center; /* Center the video container vertically */
+    min-height: 100vh; /* Ensure the gallery takes up at least the full viewport height */
+    background-color: #f0f0f0; /* Optional: Background color for the gallery */
+    padding: 20px; /* Optional: Padding around the gallery */
+  }
+  
+.Home .video-gallery{
+    max-width: 100%; /* Ensure the video container does not overflow the viewport */
+    max-height: 80vh; /* Ensure the video container does not exceed 80% of the viewport height */
+    overflow: hidden; /* Hide any overflow content */
+    border: 2px solid #ddd; /* Optional: Border around the video container */
+    border-radius: 8px; /* Optional: Rounded corners for the border */
+    background-color: #000; /* Optional: Background color for the video container */
+  }
+  
+  video {
+    width: 100%; /* Make the video take up the full width of its container */
+    height: auto; /* Maintain the aspect ratio of the video */
+    display: block; /* Remove any inline spacing around the video */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
